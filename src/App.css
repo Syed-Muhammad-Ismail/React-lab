@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 100px;
+  display: flex;
+  background-color:#fff0f5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px; /* Adjust padding for a more compact look */
+  margin-bottom: 150px;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+.nav-links li {
+  margin: 0 20px; /* Space between the links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative; /* Required for the hover effect */
+}
+
+.nav-links a:hover {
+  color: #ff4081;
+}
+.blogs{
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  background-color: aliceblue;
+}
+.blogs h2{
+  width: 200pxpx;
+  
+}
